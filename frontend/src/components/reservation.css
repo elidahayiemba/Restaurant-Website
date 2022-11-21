@@ -1,0 +1,85 @@
+.reservation h1{
+    margin-top: -20rem;
+    color: white;
+    text-align: center;
+    font-size: 90px;
+    font-weight: 800;
+}
+
+.reservation img{
+    margin-top: 6rem;
+}
+
+.form form{
+    margin-top: 12rem;
+    margin-left: 5rem;
+}
+
+.form .form2 {
+    margin-left: 22rem;
+    margin-top: -19.5rem;
+
+}
+
+
+.form{
+    width: 280px;
+    padding: 16.94px;
+    /* background:#E2E2E2; */
+    
+    margin-bottom:25px;
+    color:#727272 !important;
+    font-size:13px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.form:focus{
+    color: white;
+    outline: none;
+    border:1px solid #8BC3A3;
+}
+
+.form-btn{
+    width:180px;
+    display: block;
+    float: left;
+    height: auto;
+    padding:15px;
+    color:#fff;
+    background:rgba(80, 160, 108, 1);
+    border:none;
+    border-radius:3px;
+    outline: none;
+    transition: all 0.3s;
+    margin: 0 auto;
+    margin-left: -22rem;
+    
+}
+.form-btn:hover{
+    background: rgba(85, 184, 120, 1);
+    color: white;
+    border:none;
+}
+
+.form-btn:active{
+    opacity: 0.9;
+}
+
+.operating p hr{
+    width: 200px;
+
+}
+
+.operating{
+    float: right;
+    overflow-x: hidden;
+    margin-top: -25rem;
+    margin-right: 8rem;
+}
+
+.operating h2{
+    text-align: center;
+}
+

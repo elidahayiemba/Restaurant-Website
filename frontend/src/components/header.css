@@ -1,0 +1,71 @@
+.logo{
+    padding: 0px 50px;
+    color: white;
+    font-size: 18px;
+    font-weight: 50;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+.navbar{
+    padding: 5px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: z;
+    width: 100vw;
+    margin-left: 28rem;
+    margin-top: -70px;
+}
+header{
+    background-color:#1E1E1E ;
+    margin-top: -23px;
+    height: 100px;
+    position: fixed;
+
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a {
+    position: relative;
+    margin-left: 20px;
+}
+.navbar li a::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: -35px;
+    width: 0;
+    height: 4px;
+    transition: all .5s;
+}
+.navbar li a:hover{
+    width: 100%;
+    color: #9BE86F;
+    
+}
+
+.city h1{
+    color: white;
+    text-align: center;
+    margin: -25rem;
+    font-size: 120px;      
+}
+
+.city h2{
+    margin: 25rem;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+ 
+
+
+

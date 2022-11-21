@@ -1,0 +1,28 @@
+.aboutus{
+    margin-top: -7rem;   
+}
+
+.about button{
+    padding: 20px 50px;
+    background-color: white;
+    border-color: rgb(30, 30, 30);
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 200px;
+    margin-bottom: 40px;
+}
+.about p{
+    margin-left: 60px;
+    font-size: 20px;
+    line-height: 30px;   
+}
+
+.food{
+    float: right;
+    margin-top: -350px;
+    margin-right: 120px;
+}
+
+
+
+
