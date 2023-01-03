@@ -5,6 +5,7 @@ import featured from '../../src/images/featured.jpg'
 
 
 export default class Reservation extends Component{
+    
     render(){
         return(
             <div>
@@ -12,7 +13,7 @@ export default class Reservation extends Component{
                 <img src= {featured} alt="none" width="100%" height="600px"/>
                 <h1>Reserve a Table</h1>
                 <div className="form">
-                    <form>
+                    <form >
                         <input type="text" name="first_name" id="first_name" required="required" class="form" placeholder="First Name" />
                         <input type="text" name="last_name" id="last_name" required="required" class="form" placeholder="Last Name" />
                         <input type="text" name="city" id="city" required="required" class="form" placeholder="City" />

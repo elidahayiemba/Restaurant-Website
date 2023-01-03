@@ -9,6 +9,7 @@ import Featured from './components/featured';
 import Reservation from './components/reservation';
 import Footer from './components/footer';
 
+
 function App() {
   return (
     <div className="App">
@@ -20,6 +21,7 @@ function App() {
       <Featured/>
       <Reservation/>
       <Footer/>
+
       
     </div>
   );
